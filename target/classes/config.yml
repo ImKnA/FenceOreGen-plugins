@@ -1,0 +1,51 @@
+settings:
+  enable-plugin: true
+  debug-mode: false
+
+  # Các block kích hoạt
+  trigger-blocks:
+    - OAK_FENCE
+    - SPRUCE_FENCE
+    - BIRCH_FENCE
+    - JUNGLE_FENCE
+    - ACACIA_FENCE
+    - DARK_OAK_FENCE
+    - NETHER_BRICK_FENCE
+    - OAK_FENCE_GATE
+    - SPRUCE_FENCE_GATE
+    - BIRCH_FENCE_GATE
+    - JUNGLE_FENCE_GATE
+    - ACACIA_FENCE_GATE
+    - DARK_OAK_FENCE_GATE
+
+  # Các block được phép thay thế
+  replaceable-blocks:
+    - AIR
+    - WATER
+
+spawn-delay: 20  # Delay spawn quặng sau 20 ticks (1 giây)
+
+protection:
+  prevent-break: true
+  max-player-distance: 5
+  enable-worldguard: false
+  disabled-worlds:
+    - world_pvp
+    - world_minigames
+
+generator-levels:
+  overworld:
+    "1":
+      STONE: 80.0
+      COAL_ORE: 20.0
+    "2":
+      IRON_ORE: 50.0
+      GOLD_ORE: 50.0
+  nether:
+    "1":
+      NETHERRACK: 70.0
+      NETHER_QUARTZ_ORE: 30.0
+  the_end:
+    "1":
+      END_STONE: 60.0
+      PURPUR_BLOCK: 40.0

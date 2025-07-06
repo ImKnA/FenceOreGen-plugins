@@ -1,0 +1,53 @@
+# messages.yml
+commands:
+  main: "&6/fencegen &e- Hiển thị menu trợ giúp"
+  level: "&6/fencegen level [ngườichơi] &e- Xem cấp độ máy tạo"
+  upgrade: "&6/fencegen upgrade &e- Nâng cấp máy tạo"
+  setlevel: "&6/fencegen setlevel <cấp> &e- Đặt cấp độ (Admin)"
+  reload: "&6/fencegen reload &e- Tải lại cấu hình (Admin)"
+
+errors:
+  # Permission
+  no-permission: "&cBạn không có quyền sử dụng lệnh này!"
+  admin-only: "&cChỉ Admin mới được sử dụng lệnh này!"
+
+  # Player
+  player-only: "&cLệnh này chỉ dành cho người chơi!"
+  player-not-found: "&cKhông tìm thấy người chơi: %player%"
+
+  # Generator
+  max-level: "&cĐã đạt cấp độ tối đa (%max%)!"
+  invalid-level: "&cCấp độ phải từ %min% đến %max%!"
+  world-disabled: "&cKhông thể tạo máy tạo trong thế giới này!"
+  cooldown: "&cVui lòng đợi %time% giây trước khi thực hiện lại!"
+  chunk-limit: "&cĐã đạt giới hạn máy tạo trong khu vực này (%limit%)!"
+  player-limit: "&cBạn đã đạt giới hạn máy tạo (%limit%)!"
+
+
+  # Economy
+  not-enough-money: "&cKhông đủ %cost% để thực hiện!"
+  economy-disabled: "&cHệ thống kinh tế chưa được kích hoạt!"
+  no-economy: "&cLỗi: Hệ thống kinh tế chưa được thiết lập!"
+
+
+success:
+  # Generator
+  created: "&aĐã tạo máy tạo thành công tại vị trí của bạn!"
+  upgraded: "&aĐã nâng cấp lên cấp %level%! Đã trừ %cost% tiền."
+  level-set: "&aĐã đặt cấp độ thành %level%!"
+
+  # Economy
+  money-charged: "&aĐã trừ %amount% từ tài khoản!"
+  money-received: "&aNhận được %amount% từ máy tạo!"
+
+  # System
+  reloaded: "&aĐã tải lại cấu hình thành công!"
+
+titles:
+  generator-created:
+    title: "&a&lMÁY TẠO QUẶNG"
+    subtitle: "&7Đã được kích hoạt!"
+  level-up:
+    title: "&6&lNÂNG CẤP THÀNH CÔNG"
+    subtitle: "&7Cấp độ mới: %level%"
+

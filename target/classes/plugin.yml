@@ -1,0 +1,26 @@
+name: FenceOreGen
+version: 1.0
+api-version: 1.20
+main: FenceOreGen.FenceOreGen
+author: Nguyễn Anh Khoa (KnA)
+description: Plugin tạo quặng khi nước chạm hàng rào
+website: none
+prefix: FenceGen
+softdepend: [SuperiorSkyblock2, ExtraStorage]
+
+commands:
+  fencegen:
+    description: Các lệnh quản lý máy tạo quặng
+    usage: /<command> [reload|upgrade|level]
+    aliases: [fence, fog]
+
+permissions:
+  fenceoregen.use:
+    description: "Cho phép sử dụng máy quặng"
+    default: true
+  fenceoregen.upgrade:
+    description: "Cho phép nâng cấp máy quặng"
+    default: op
+  fenceoregen.admin:
+    description: "Toàn quyền quản lý plugin"
+    default: op
